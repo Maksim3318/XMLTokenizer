@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "Note.dtd">
+<note>
+    <to>John</to>
+    <from>Jane</from>
+    <![CDATA[Some unparsed <data>]]>
+    <heading>Reminder</heading>
+    <body>Don't forget the meeting at 3 PM today!</body>
+    <end/>
+    <!-- Some comment not to sending -->
+</note>

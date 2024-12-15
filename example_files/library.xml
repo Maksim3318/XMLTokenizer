@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "Library.dtd">
+<library>
+    <book/>
+    <author>John Doe</author>
+    <title>XML Parsing in C++</title>
+    <genre>Programming</genre>
+    <price>29.99</price>
+    <publish_date>2024-01-01</publish_date>
+    <description>This book covers XML parsing techniques in C++.</description>
+    <!-- This is a comment -->
+    <![CDATA[Some unparsed <data> here]]>
+    <book/>
+    <author>Jane Smith</author>
+    <title>Advanced C++ Programming</title>
+    <genre>Programming</genre>
+    <price>49.99</price>
+    <publish_date>2023-05-15</publish_date>
+    <description>Advanced topics in C++ programming including templates and metaprogramming.</description>
+    <book/>
+    <author>Emily Johnson</author>
+    <title>Introduction to Algorithms</title>
+    <genre>Computer Science</genre>
+    <price>39.99</price>
+    <publish_date>2022-11-20</publish_date>
+    <description>An introductory book on algorithms and data structures.</description>
+    <book/>
+    <author>Michael Brown</author>
+    <title>Data Structures in Java</title>
+    <genre>Computer Science</genre>
+    <price>34.99</price>
+    <publish_date>2021-07-10</publish_date>
+    <description>A comprehensive guide to data structures in Java.</description>
+    <!-- Repeat blocks like this until the document reaches approximately 100 lines -->
+    <book/>
+    <author>Patricia Davis</author>
+    <title>Machine Learning Basics</title>
+    <genre>Artificial Intelligence</genre>
+    <price>54.99</price>
+    <publish_date>2020-03-05</publish_date>
+    <description>Basic concepts and techniques in machine learning.</description>
+    <!-- This is one more comment -->
+    <book/>
+    <author>Robert Wilson</author>
+    <title>Deep Learning with Python</title>
+    <genre>Artificial Intelligence</genre>
+    <price>59.99</price>
+    <publish_date>2019-08-25</publish_date>
+    <description>An in-depth guide to deep learning using Python.</description>
+    <book/>
+    <author>Linda Martinez</author>
+    <title>Web Development with JavaScript</title>
+    <genre>Web Development</genre>
+    <price>44.99</price>
+    <publish_date>2018-12-14</publish_date>
+    <description>Learn web development using JavaScript, HTML, and CSS.</description>
+    <book/>
+    <author>David Anderson</author>
+    <title>Network Security Essentials</title>
+    <genre>Cybersecurity</genre>
+    <price>49.99</price>
+    <!-- This is
+    multiline
+    comment! -->
+    <publish_date>2017-06-30</publish_date>
+    <description>Essential concepts and practices in network security.</description>
+    <book/>
+    <author>Barbara Thomas</author>
+    <title>Introduction to Databases</title>
+    <genre>Database Management</genre>
+    <price>39.99</price>
+    <publish_date>2016-04-18</publish_date>
+    <description>An introduction to database management systems and SQL.</description>
+    <book/>
+    <author>Christopher Garcia</author>
+    <title>Cloud Computing Fundamentals</title>
+    <genre>Cloud Computing</genre>
+    <price>52.99</price>
+    <publish_date>2015-09-10</publish_date>
+    <description>Fundamental concepts and technologies in cloud computing.</description>
+</library>
