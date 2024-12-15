@@ -1,0 +1,43 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake g++
+    
+    - name: create build directory
+      run: mkdir -p build
+      working-directory: ${{ github.workspace }}
+      
+    - name: configure
+      run: cmake ..
+      working-directory: ${{ github.workspace }}/build
+      
+    - name: build
+      run: cmake --build .
+      working-directory: ${{ github.workspace }}/build
+
+    - name: copy example_files
+      run: cp -r example_files build/
+      working-directory: ${{ github.workspace }}
+
+    - name: copy non xml file
+      run: cp test/tokenizer_test.cpp build/test/
+      working-directory: ${{ github.workspace }}
+
+    - name: run tests
+      run: ./XMLTokenizerTest
+      working-directory: ${{ github.workspace }}/build/test
